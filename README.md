@@ -28,29 +28,18 @@ A ideia é você apontar o agente para este repositório e ele usar como base pa
 
 ---
 
-## Como usar
+## Como utilizar
 
-Quando o assunto for Oracle:
+Clone o repositório:
 
-1. Entender o objetivo (consulta, manutenção, tuning, crise)
-2. Confirmar contexto mínimo:
-   - Versão (19c, 23ai, 26ai?)
-   - CDB/PDB?
-   - RAC?
-   - Data Guard?
-   - Volume estimado?
-3. Só então gerar SQL/procedimento
-4. Sempre explicar impacto em produção quando houver risco
+git clone https://github.com/dbagustavoborges/gb-oracle-skills.git
 
----
+Utilize:
 
-## Instalação
+- skills/oracle/SKILL.md como documento base de raciocínio
+- skills/oracle/references/ como base técnica aprofundada
 
-Exemplo de comando:
-
-    npx skills add dbagustavoborges/gb-oracle-skills
-
-Se você não usa tooling, basta clonar o repositório e utilizar os arquivos `SKILL.md` e `references/` como base de conhecimento.
+Configure sua ferramenta de IA para incluir esses arquivos como contexto permanente.
 
 ---
 
