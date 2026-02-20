@@ -44,6 +44,7 @@ Quando o assunto for Oracle, use este repositório como base e siga a ordem:
 
 ```bash
 npx skills add dbagustavoborges/gb-oracle-skills
+```
 
 Se você não usa tooling: clone o repositório e aponte o agente/fluxo para os arquivos SKILL.md e references/.
 
